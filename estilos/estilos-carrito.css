@@ -1,0 +1,497 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+html, body {
+    margin:0px;
+    height:100vh;
+  }
+ 
+.main{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+
+}
+
+/*////////////  FECHAS  //////////*/
+
+.titulo-fechas{
+    font-size: 42px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.main .fechas{
+    width: 95%;
+    margin: 20px auto;
+    text-align: left;
+    
+}
+.main .fechas .fecha{
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.main .fechas .fecha .info-fecha{
+    line-height: 1.4;
+    margin: auto;
+}
+.main .fechas .fecha .info-fecha input{
+    display: none;
+}
+.main .fechas .fecha .info-fecha .negro{
+    font-weight: bolder;
+}
+.main .fechas .fecha .info-fecha .gris{
+    font-weight: lighter;
+}
+.main .fechas .fecha .elegir-fecha{
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #000000;
+    border: none;
+}
+.main .fechas .separador{
+    width: 100%;
+    height: 0.1px;
+    background-color: #c0c0c0;
+    margin: 20px auto;  
+}
+
+/*///////////// PLAN DE CARRERRA ////////////*/
+
+.main .bloque-opciones{
+    position:relative;
+     top:0px;
+     left:0px;
+     bottom: 20px;
+    padding: 10px;
+    width: 70%;
+    max-width: 63%;
+}
+ .main .bloque-opciones .logo {
+    background-color: #ffffff;
+    max-width: 70%;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+  }
+  .main .bloque-opciones .logo:active{
+    transform: scale(0.98);
+    opacity: 0.8;
+    }
+.main .bloque-opciones .programacion-beca{
+    padding: 30px;
+    margin: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(241, 255, 42);
+    border: none;
+    border-radius: 15px;
+}
+.main .bloque-opciones .programacion-beca h2{
+    margin-bottom: 30px;
+}
+.main .bloque-opciones .programacion-beca div{
+    display: flex;
+}
+.main .bloque-opciones .programacion-beca div p{
+    width: 80%;
+    margin: 20px;
+}
+.main .bloque-opciones .programacion-beca div p img{
+    margin-right: 8px;
+}
+.main .bloque-opciones .plan-standard{
+    padding: 30px;
+    margin: 50px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 0.5px solid;
+    border-radius: 15px;
+}
+.main .bloque-opciones .plan-standard h2{
+    margin-bottom: 30px;
+}
+.main .bloque-opciones .plan-standard div{
+    display: flex;
+}
+.main .bloque-opciones .plan-standard div p{
+    width: 80%;
+    margin: 20px;
+}
+.main .bloque-opciones .plan-standard div p img{
+    margin-right: 8px;
+}
+.btn-plan-pago{
+    padding: 15px 25px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.beca{
+    background-color: #000;
+}
+.standard{
+    background-color: #4d4d4d;
+}
+
+/*///////////// ASIDE ////////////*/
+
+.main .info{
+    position:fixed;
+     top:0px;
+     right:0px;
+     bottom:0px;
+    width: 30%;
+    height: 100vh;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+.main .info .aside{
+    margin: 0px;
+    padding: 10px 30px;
+}
+.main .info .aside h3{
+    width: 100%;
+    text-align: left;
+    font-size: 19px;
+    color: rgb(241, 255, 42);
+    margin-bottom: 80px;
+}
+.main .info .aside h2{
+    width: 100%;
+    text-align: left;
+    font-size: 19px;
+    color: rgb(241, 255, 42);
+    margin-bottom: 20px;
+}
+.main .info p{
+    display: inline-block;
+    color: #8c8c8c;
+}
+.main .info .turno{
+    color: #ffffff;
+}
+.main .info .aside .cursoElegido{
+    text-align: left;
+    margin-left: 850px;
+}
+
+/*///////////// DATOS ////////////*/
+
+.main{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    display: flex;
+}
+.main .bloque-opcioness{
+    width: 70%;
+    height: 100vh;
+}
+.main .bloque-opcioness .logo a img{
+    margin: 15px; 
+    margin-bottom: 5px;
+}
+.main .bloque-opcioness .logo a img:active{
+    transform: scale(0.98);
+    opacity: 0.8;
+    }
+.main .bloque-opcioness h1{
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 15px;
+    margin-top: 5px;
+    margin-bottom:0px;
+}
+.main .bloque-opcioness p{
+    padding: 15px;
+    margin: 15px;
+    margin-bottom:0px;
+}
+.main .bloque-opcioness .input{
+    
+    float:left;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+   }
+.main .bloque-opcioness .input .comment{
+    font-size: 12px;
+    color: rgb(167, 167, 167);
+}
+input, label {
+    display: block;
+}
+
+.input-datos,.select {
+    width: 300px;
+    background-color: #f3f3f3;
+    padding: 15px 10px;
+    margin:10px 10px;
+    border: none;
+    border-radius:4px;
+}
+.main .bloque-opcioness .input .input-corto {
+    width: 110px;
+}
+
+.border-customized-input {
+    border: 2px solid #eee;
+}
+.main .bloque-opcioness .input label {
+    padding: 3px 10px;
+    margin: 3px;
+    font-size: 14px;
+}
+
+.main .bloque-opcioness .input .terms {
+    position: relative;
+    padding-left:30px; 
+    cursor: pointer;
+}
+label input[type=checkbox] {
+    padding: 30px; 
+    opacity: 0;
+    width:0; 
+    height:0;
+}
+label span {
+    position: absolute;
+    top:0;
+    left:0;
+    width:20px; 
+    height:20px;
+    background-color: #ddd;
+    transition: .3s background-color; 
+}
+label span:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 6px;
+    top: 2px;
+    width: 4px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+label:hover span {
+    background-color: #ccc;
+}
+label input:checked ~ span {
+    background-color: #2eaadc;
+}
+label input:checked ~ span:after {
+    display:block;
+}
+.main .bloque-opcioness .term{
+    margin: 45px;
+}
+.main .bloque-opcioness .btns{
+    width: 100%;
+    margin-top: 25px;
+}
+.main .bloque-opcioness .btn-siguiente{
+    padding: 20px 45px;
+    color: white;
+    background-color: #333333;
+    border: none;
+    border-radius: 9px;
+    text-align: right;
+    font-weight: bolder;
+    margin-left: 46%;
+    cursor: pointer;
+}
+.main .bloque-opcioness .btn-siguiente:hover{
+    background-color: #3f3f3f;
+}
+.main .bloque-opcioness .btn-siguiente:active{
+    transform: scale(0.94);
+    opacity: 0.8;
+    border: 3px solid #b3a0fd;
+}
+.main .bloque-opcioness .btn-atras{
+    padding: 20px 55px;
+    margin-left: 10px;
+    background-color: #ffffff;
+    border: solid 1px;
+    border-radius: 9px;
+    text-align: right;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.main .bloque-opcioness .btn-atras:active{
+    transform: scale(0.94);
+    opacity: 0.8;
+    border: 3px solid #b3a0fd;
+}
+
+/*/////////////  PAGOS  /////////////*/
+
+.main .bloque-opciones .metodos-pago .metodo-pago{
+    padding: 20px;
+    margin: auto;
+    list-style-type: none;
+    border: solid  1px white;
+    border-radius: 7px;
+    position: relative;
+     left: 0;
+     top: 0;
+     bottom: 0;
+    cursor: pointer;
+}
+.main .bloque-opciones h3{
+    font-size: 24px;
+}
+.main .bloque-opciones .metodos-pago .metodo-pago .heading{
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+    display: flex;
+}
+.main .bloque-opciones .metodos-pago .metodo-pago h1{
+    padding-right: 20px;
+}
+.main .bloque-opciones .metodos-pago .metodo-pago .metodo-pago-seleccionado{
+    display: none;
+    margin: 20px auto;
+}
+.main .bloque-opciones .metodos-pago .metodo-pago .metodo-pago-flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin: 20px auto;
+}
+.main .bloque-opciones .metodos-pago .metodo-pago .metodo-pago-seleccionado .datos{
+    margin-left: 0px;
+    font-size: 18px;
+}
+.main .bloque-opciones .metodos-pago .metodo-pago .metodo-pago-seleccionado .datos h4{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+.main .bloque-opciones .metodos-pago .metodo-pago .metodo-pago-seleccionado .datos .indicador-informacion{
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+.main .bloque-opciones .metodos-pago .metodo-pago .metodo-pago-seleccionado .datos .informacion{
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+.input-pago{
+    font-size: 15px;
+    width: 300px;
+    background-color: #f3f3f3;
+    padding: 10px;
+    margin:10px auto;
+    border: none;
+    border-radius:4px;
+}
+.tarjeta{
+    text-align: center;
+}
+.btns-pagos{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-confirm{
+    padding: 20px 45px;
+    color: #000;
+    background-color: #e0ff00;
+    border: solid 0.2px;
+    border-radius: 9px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn-atras{
+    padding: 20px 55px;
+    margin-left: 60px;
+    background-color: #ffffff;
+    border: solid 1px;
+    border-radius: 9px;
+    text-align: right;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn-pago-div-transferencia{
+    text-align: right;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    right: 4%;
+    bottom: 0px;
+}
+.btn-pago-div-tarjeta{
+    text-align: center;
+    width: 100%;
+}
+
+/*///////////// COMPRADO ////////////*/
+
+.header {
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.comprado{
+    width: 100%;
+    margin: 5px auto;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 19px;
+}
+.comprado .banner{
+    margin-bottom: 70px;
+}
+.comprado p{
+    margin: 30px auto;
+}
+.comprado .curso-elegido{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.comprado .bloque-datos-plataforma{
+    width: 55%;
+    background-color: #e0ff00;
+    margin: 40px auto;
+    padding: 20px 40px;
+    text-align: left;
+    border: none;
+    border-radius: 25px;
+}
+.comprado .bloque-datos-plataforma .bolder{
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.comprado .bloque-datos-plataforma .datos-plataforma{
+    text-decoration: underline;
+}
+.comprado .btn-plataforma{
+    padding: 20px 55px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    background-color: #ffffff;
+    border: solid 1px;
+    border-radius: 9px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+}

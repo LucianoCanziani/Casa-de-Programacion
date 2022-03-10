@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Casa de Programacion</title>
+    <link rel="icon" href="../img/icon/icon.png">
+    <link href="../estilos/estilos-carrito.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <section class="main">
+
+        <div class="bloque-opciones">
+
+            <div class="logo">
+                <a href="../index.html">
+                    <img alt="Casa de Programacion" src="../img/logos/logo2.png" max-height="40%" />
+                </a>
+            </div>
+
+            <h3>4. Pago</h3>
+
+            <ul class="metodos-pago">
+                <li class="metodo-pago">
+                    <div class="heading">
+                        <h1>Tarjeta de crédito o débito (hasta 12 cuotas sin interés)</h1>
+                        <img src="../img/items/arrow.png" class="arrow" height="20px">
+                    </div>
+                    <form class="metodo-pago-seleccionado tarjeta">
+                        <div >
+                            <label for="nombre">Nombre completo: </label>
+                            <input type="text" name="nombre" class="form-control input-pago" id="dueño" required>
+                        </div>
+                        <div >
+                            <label for="numeroTarjeta">Numero de la Tarjeta: </label>
+                            <input type="text" name="numeroTarjeta" class="form-control input-pago" id="numeroT" required>
+                        </div>
+                        <div>
+                            <label for="cvv">CVV: </label>
+                            <input type="text" name="cvv" class="form-control input-pago" id="cvv" required>
+                        </div>
+                        <div>
+                            <label>Expiracion: </label>
+                            <select class="input-pago">
+                                <option value="01">Enero</option>
+                                <option value="02">Febrero </option>
+                                <option value="03">Marzo</option>
+                                <option value="04">Abril</option>
+                                <option value="05">Mayo</option>
+                                <option value="06">Junio</option>
+                                <option value="07">Julio</option>
+                                <option value="08">Agosto</option>
+                                <option value="09">Septiembre</option>
+                                <option value="10">Octubre</option>
+                                <option value="11">Noviembre</option>
+                                <option value="12">Diciembre</option>
+                            </select>
+                            <select class="input-pago">
+                                <option value="22"> 2022</option>
+                                <option value="23"> 2023</option>
+                                <option value="24"> 2024</option>
+                                <option value="25"> 2025</option>
+                                <option value="26"> 2026</option>
+                            </select>
+                        </div>
+ 
+                            <div class="btns-pagos">
+                                <button class="btn-atras">Atras</button>
+                                <button type="submit" class="btn-confirm confirmPurchase btn-tarjeta">Confirmar Compra</button>
+                            </div>
+                            
+                      
+                    </form>
+                </li>
+
+                <li class="metodo-pago">
+                    <div class="heading">
+                        <h1>Transferencia o depósito bancario</h1>
+                        <img src="../img/items/arrow.png" class="arrow" height="20px">
+                    </div>
+                    <form class="metodo-pago-seleccionado">
+                        <div class="metodo-pago-flex">
+                        <div class="datos">
+                            <h4>Cuenta Destino:</h4>
+                            <p class="indicador-informacion">Banco</p>
+                            <p class="informacion">Banco de Springfield</p>
+                            <p class="indicador-informacion">CBU ALIAS</p>
+                            <p class="informacion">callefalsa123</p>
+                            <p class="indicador-informacion">CBU</p>
+                            <p class="informacion">12345-6789</p>
+                            <p class="indicador-informacion">Cuenta corriente</p>
+                            <p class="informacion">987-65432-1</p>
+                            <p class="indicador-informacion">CUIT</p>
+                            <p class="informacion">30-00000001-9</p>
+                            <p class="indicador-informacion">Razon Social</p>
+                            <p class="informacion">CASADEPROGRAMACION S.A.</p>
+                        </div>
+                        <div class="datos">
+                            <h4>Comprobante:</h4>
+                            <p class="indicador-informacion">CUIT/CUIL del titular de la cuenta</p>
+                            <input type="text" class="input-pago">
+                            <p class="indicador-informacion">Nombre completo del titular de la cuenta</p>
+                            <input type="text" class="input-pago">
+                            <p class="indicador-informacion">Fecha de la transferencia</p>
+                            <input type="date" class="input-pago">
+                            <p class="indicador-informacion">Importe</p>
+                            <input type="text" class="input-pago">
+                            <p class="indicador-informacion">Ajuntar imagen de comprobante.</p>
+                            <input type="file" class="input-pago">
+                        </div>
+                        </div>
+                        <div class="btn-pago-div-transferencia">
+                            <div class="btns-pagos">
+                                <button class="btn-atras">Atras</button>
+                                <button type="submit" class="btn-confirm confirmPurchase">Confirmar Compra</button>
+                            </div>
+                            
+                        </div>
+                        
+                    </form>
+                </li>
+            </ul>
+
+
+        </div>
+        <section class="info">
+            <div class="aside">
+                <h3 class="compra-resumen">Resumen de compra</h3>
+                <h2 id="cursoElegido"></h2>
+                <p>Fecha: </p>
+                <p id="duracion" class="turno"></p>
+                <div class="duracion-info-extra">
+                    <p>Fecha: </p>
+                    <p class="turno"><span id="dias"></span> <span id="horarios"></span></p>
+                </div>
+                <div class="duracion-info-extra">
+                    <p>Precio: </p>
+                    <p class="turno">$ <span id="precio"></span></p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/pago.js"></script>
+</body>
+
+</html>

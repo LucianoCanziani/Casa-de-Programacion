@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Casa de Programacion</title>
+    <link rel="icon" href="../img/icon/icon.png">
+    <link href="../estilos/estilos-carrito.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header class="header">
+        <a href="../index.html">
+            <img class="logo" alt="Casa de Programacion" src="../img/logos/logo.png" max-height="40%"/>
+        </a>
+    </header>
+    <section class="comprado">
+        <div class="banner"><img src="../img/banner/banner pattern.png" width="100%"></div>
+        <p>¡Tu experiencia fue confirmada con exito! Los detalles de tu curso:</p>
+        <p class="curso-elegido"><span id="cursoElegido"></span> 😎</p>
+
+        <div class="bloque-datos-plataforma">
+            <p>Podras entrar a la plataforma con los siguientes datos:</p>
+            <p><span class="bolder">Email Aportado: </span><span id="email" class="datos-plataforma"></span></p>
+            <p><span class="bolder">Contraseña Autogenerada: </span><span id="contraseñaGenerada" class="datos-plataforma"></span></p>
+        </div>
+
+        <p>Ingresa a la plataforma para iniciar el curso</p>
+        
+        <button id="plataforma" class="btn-plataforma">Plataforma</button>
+        
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/comprado.js"></script>
+</body>
+</html>

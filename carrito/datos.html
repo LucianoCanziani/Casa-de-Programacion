@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Casa de Programacion</title>
+    <link rel="icon" href="../img/icon/icon.png">
+    <link href="../estilos/estilos-carrito.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  
+
+    <section class="main">
+        <div class="bloque-opcioness">
+
+            <div class="logo">
+                <a href="../index.html">
+                    <img alt="Casa de Programacion" src="../img/logos/logo2.png" max-height="40%" />
+                </a>
+            </div>
+
+            <h1>2. Informacion</h1>
+
+            <p>Completa tus datos</p>
+
+            <form>
+
+            <div class="input">
+                <label for="nombre">Nombre</label>
+                <input class="input-corto input-datos" type="text" name="nombre" id="nombre" required>
+            </div>
+
+            <div class="input">
+                <label for="apellido">Apellido</label>
+                <input class="input-corto input-datos" type="text" name="apellido" id="apellido" required>
+            </div>
+
+            <div class="input">
+                <label for="mail">Mail</label>
+                <input type="email" class="input-datos" name="mail" id="email" required>
+                <label class="comment">Lo vamos a usar para darte acceso</label>
+            </div>
+
+            <div class="input">
+                <label for="mail">Confirmá tu mail</label>
+                <input type="email" class="input-datos" name="mail" id="email" required>
+            </div>
+
+            <div class="input">
+                <label for="telefono">Telefono</label>
+                <input type="text" class="input-datos" name="telefono" id="telefono" required>
+                <label class="comment">Te vamos a contactar solo si es necesario</label>
+            </div>
+
+            <div class="input">
+                <label for="dni">Número de identificación (DNI)</label>
+                <input type="text" class="input-datos" name="dni" id="dni" required>
+            </div>
+
+
+            <div class="input">
+                <label for="provincia">Provincia</label>
+                <select class="select" name="provincia" id="provincia" required>
+                    <option value="1">BUENOS AIRES</option>
+                    <option value="2">CATAMARCA</option>
+                    <option value="5">CHACO</option>
+                    <option value="6">CHUBUT</option>
+                    <option value="50">CIUDAD AUTONOMA DE Bs As</option>
+                    <option value="3">CORDOBA</option>
+                    <option value="4">CORRIENTES</option>
+                    <option value="7">ENTRE RIOS</option>
+                    <option value="8">FORMOSA</option>
+                    <option value="9">JUJUY</option>
+                    <option value="10">LA PAMPA</option>
+                    <option value="11">LA RIOJA</option>
+                    <option value="12">MENDOZA</option>
+                    <option value="13">MISIONES</option>
+                    <option value="14">NEUQUEN</option>
+                    <option value="15">RIO NEGRO</option>
+                    <option value="16">SALTA</option>
+                    <option value="17">SAN LUIS</option>
+                    <option value="19">SANTA CRUZ</option>
+                    <option value="20">SANTA FE</option>
+                    <option value="21">SANTIAGO DEL ESTERO</option>
+                    <option value="22">TIERRA DEL FUEGO</option>
+                    <option disabled="true" selected="true" value="">Seleccionar una Provincia</option>
+                </select>
+            </div>
+
+            <div class="input">
+                <label for="tributo">Condición tributaria</label>
+                <select class="select" name="tributo" id="condicionTributaria" required>
+                    <option value="1">Consumidor Final</option>
+                    <option value="2">Monotributista</option>
+                    <option value="3">Responsable Inscripto</option>
+                    <option disabled="true" selected="true" value="">Seleccionar</option>
+                </select>
+            </div>
+            <div class="input term">
+                <label class="terms">Acepto los terminos y condiciones
+                    <input type="checkbox" id="term" />
+                    <span></span>
+                </label>
+            </div>
+            <div class="input btns">
+                <button class="btn-atras">Atras</button>
+                <button type="submit" class="btn-siguiente">Siguiente</button>
+            </div>
+            </form>
+        </div>
+
+        <section class="info">
+            <div class="aside">
+                <h3 class="compra-resumen">Resumen de compra</h3>
+                <h2 id="cursoElegido"></h2>
+                <p>Fecha: </p>
+                <p id="duracion" class="turno"></p>
+                <div class="duracion-info-extra">
+                   <p>Fecha: </p>
+                   <p class="turno"><span id="dias"></span> <span id="horarios"></span></p> 
+                </div>
+                <div class="duracion-info-extra">
+                   <p>Precio: </p>
+                   <p class="turno">$ <span id="precio"></span></p> 
+                </div>     
+            </div>
+        </section>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/datos.js"></script>
+
+</body>
+
+</html>
