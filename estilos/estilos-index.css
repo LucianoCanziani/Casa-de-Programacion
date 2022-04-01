@@ -27,31 +27,12 @@ header {
   padding-right: 32px;
   padding-top: 10px;
   padding-bottom: 10px;
+
   opacity: 0.9;
 }
-
 header .logo:active {
   transform: scale(0.98);
   opacity: 0.8;
-}
-
-.navbar {
-  width: 100%;
-}
-
-.navbar-nav {
-  text-align: center;
-}
-
-.mb-md-0 {
-  margin: auto;
-}
-
-.nav-item {
-  margin: 0px 45px;
-}
-.curso-btn-nav {
-  text-align: center;
 }
 
 .main-nav-list {
@@ -59,21 +40,17 @@ header .logo:active {
   display: flex;
   align-items: center;
 }
-
 .main-nav-list li {
   color: #fff;
   padding-left: 40px;
   padding-right: 40px;
 }
-
 .main-nav-list li a:hover {
   text-decoration: underline 2px;
 }
-
 .main-nav-list li a img {
   margin-right: 5px;
 }
-
 .btn-mobile-nav {
   cursor: pointer;
   padding: 15px;
@@ -85,15 +62,12 @@ header .logo:active {
   background-color: #e0ff00;
   border: none;
 }
-
 .btn-mobile-nav:hover {
   background-color: #eaff4e;
 }
-
 .main-nav-link:active {
   transform: scale(0.98);
 }
-
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
@@ -109,7 +83,6 @@ header .logo:active {
   margin: auto;
   overflow: hidden;
 }
-
 .main .portada {
   color: #fff;
   background: #000000;
@@ -119,23 +92,20 @@ header .logo:active {
   margin-bottom: 50px;
   padding-bottom: 50px;
 }
-
 .main .portada .texto {
   color: #fff;
   width: 60%;
   margin-left: 40px;
 }
-
 .main .portada .texto h1 {
   font-size: 50px;
   line-height: 1.3;
-  margin: 60px 0px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
-
 .main .portada .texto .yellowEffect {
   color: #e0ff00;
 }
-
 .main .portada .texto .separador {
   width: 60px;
   height: 5px;
@@ -143,12 +113,10 @@ header .logo:active {
   margin: 20px;
   margin-left: 0px;
 }
-
 .main .portada .texto p {
   color: white;
   line-height: 1.4;
 }
-
 .btn-portada {
   cursor: pointer;
   padding: 15px;
@@ -162,17 +130,14 @@ header .logo:active {
   background-color: #e0ff00;
   border: none;
 }
-
 .btn-portada:hover {
   background-color: #eaff4e;
 }
-
 .portada .contenedor {
   margin-top: 60px;
   width: 40%;
   height: 400px;
 }
-
 .portada .contenedor .img-portada {
   border-radius: 20px;
   border-color: #e0ff00;
@@ -190,19 +155,15 @@ header .logo:active {
   padding-bottom: 0px;
   padding-top: 40px;
 }
-
 .main .quotes {
   width: 15px;
 }
-
 .main .diario {
   width: 40%;
   align-items: center;
   text-align: center;
 }
-
 .main .diario p {
-  margin-bottom: 20px;
   line-height: 1.4;
 }
 
@@ -217,23 +178,19 @@ header .logo:active {
   text-align: center;
   display: flex;
 }
-
 .informacion-clases .informacion-bloque {
   text-align: left;
   margin: 20px;
 }
-
 .informacion-clases .items {
   width: 50px;
   margin-bottom: 30px;
 }
-
 .informacion-clases p {
   font-size: 15px;
   font-weight: lighter;
   line-height: 1.3;
 }
-
 .informacion-clases .strong {
   font-size: 19px;
   font-weight: bolder;
@@ -245,7 +202,6 @@ header .logo:active {
 .profesores {
   margin-bottom: 100px;
 }
-
 .expertosIndustria {
   margin: 20px auto;
   display: flex;
@@ -257,36 +213,28 @@ header .logo:active {
   top: 0;
   bottom: 0;
 }
-
 /* Slide Hijo */
-
 .slick-slide {
   padding: 0 40px;
 }
-
 /* Slide Padre */
-
 .slick-list {
   padding: 0 -40px;
 }
-
 .expertosIndustria .slick-prev:before {
   margin: 0px;
   color: white;
   font-size: 40px;
 }
-
 .expertosIndustria .slick-next:before {
   margin: 0px;
   color: white;
   font-size: 40px;
 }
-
 .main .profesores .titulo-expertos {
   font-size: 32px;
   text-align: center;
 }
-
 .main .expertosIndustria .profesor {
   text-align: center;
   padding: 40px;
@@ -299,11 +247,9 @@ header .logo:active {
     )
     1;
 }
-
 .main .expertosIndustria .profesor img {
   display: inline;
 }
-
 .main .expertosIndustria .profesor:hover {
   border: 1px solid;
   border-image: linear-gradient(
@@ -313,19 +259,16 @@ header .logo:active {
     )
     1;
 }
-
 .main .expertosIndustria .profesor .nombre-profesor {
   font-size: 20px;
   font-weight: bolder;
   margin-top: 17px;
   margin-bottom: 12px;
 }
-
 .main .expertosIndustria .profesor .puesto-profesor {
   font-size: 15px;
   font-weight: lighter;
 }
-
 .main .expertosIndustria .profesor .empresa {
   background-color: white;
   width: 80%;
@@ -344,7 +287,6 @@ header .logo:active {
   text-align: center;
   padding: 80px 0px;
 }
-
 .programacion-beca-info .programacion-beca-contenedor {
   width: 92%;
   padding: 35px 30px;
@@ -353,33 +295,27 @@ header .logo:active {
   text-align: center;
   display: flex;
 }
-
 .programacion-beca-info .programacion-beca-contenedor .bloque-beca {
   text-align: left;
   margin: 30px;
 }
-
 .programacion-beca-info .programacion-beca-contenedor .bloque-beca .premio {
   color: #e0ff00;
   letter-spacing: 4px;
 }
-
 .programacion-beca-info .programacion-beca-contenedor .bloque-beca h4 {
   font-size: 39px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
-
 .programacion-beca-info .programacion-beca-contenedor .bloque-beca p {
   line-height: 1.4;
   margin-bottom: 15px;
 }
-
 .programacion-beca-info .programacion-beca-contenedor .bloque-beca h5 {
   font-size: 25px;
   margin-bottom: 25px;
 }
-
 .programacion-beca-info .programacion-beca-contenedor .bloque-beca p img {
   margin-right: 8px;
 }
@@ -391,12 +327,10 @@ header .logo:active {
   text-align: center;
   margin: 60px 0px;
 }
-
 .main .cursos .titulo-expertos {
   font-size: 32px;
   text-align: center;
 }
-
 .contenedorr {
   width: 90%;
   text-align: center;
@@ -427,7 +361,6 @@ header .logo:active {
   padding: 20px auto;
   position: relative;
 }
-
 .curso {
   color: white;
   list-style-type: none;
@@ -438,11 +371,9 @@ header .logo:active {
   text-align: center;
   margin: 15px auto;
 }
-
 .curso p {
   text-align: left;
 }
-
 .subcontenedor .bloque .curso .cabecera {
   width: 100%;
   background-color: #b3a0fd;
@@ -453,12 +384,10 @@ header .logo:active {
   font-weight: bolder;
   text-align: center;
 }
-
 .subcontenedor .bloque .curso .etiquetas {
   display: flex;
   margin: 10px 5px;
 }
-
 .subcontenedor .bloque .curso .etiqueta-curso {
   text-align: left;
   background-color: #393b43;
@@ -469,7 +398,6 @@ header .logo:active {
   font-weight: bolder;
   text-align: center;
 }
-
 .subcontenedor .bloque .curso .etiqueta-curso .vivo-circulo {
   width: 8px;
   height: 8px;
@@ -478,24 +406,20 @@ header .logo:active {
   display: inline-block;
   border-radius: 100px;
 }
-
 .subcontenedor .bloque .curso p {
   color: #bebebe;
   font-size: 14px;
   margin: 15px 15px;
 }
-
 .subcontenedor .bloque .curso h2 {
   font-size: 20px;
   font-weight: bolder;
   text-align: left;
   margin: 15px 15px;
 }
-
 .subcontenedor .bloque .curso .descripcion-curso {
   margin: 15px 15px 30px 15px;
 }
-
 .subcontenedor .bloque .curso .duracion-cursada {
   display: flex;
   margin: 10px auto;
@@ -504,15 +428,12 @@ header .logo:active {
   color: #bebebe;
   font-size: 14px;
 }
-
 .subcontenedor .bloque .curso .duracion-cursada .duracion-curso {
   margin: 15px;
 }
-
 .subcontenedor .bloque .curso .duracion-cursada .icono-curso {
   margin-right: 8px;
 }
-
 .subcontenedor .bloque .curso .linea {
   margin: 5px auto;
   margin-bottom: 25px;
@@ -520,26 +441,21 @@ header .logo:active {
   border-bottom: solid 0.2px #555555;
   width: 90%;
 }
-
 .subcontenedor .bloque .curso .montos-curso {
   margin-top: 7px auto;
   line-height: 0.7;
   text-align: center;
 }
-
 .subcontenedor .bloque .curso .montos-curso .precio-tachado {
   text-decoration: line-through;
 }
-
 .subcontenedor .bloque .curso .cuotas-curso {
   color: white;
   font-weight: bolder;
 }
-
 .bloque .curso .info-curso {
   position: relative;
 }
-
 .bloque .curso .btn-curso {
   cursor: pointer;
   background-color: #393b43;
@@ -561,16 +477,13 @@ header .logo:active {
   background: #fff;
   color: black;
 }
-
 .main .students .titulo-testimonios {
   font-size: 32px;
   text-align: center;
 }
-
 .main .students .titulo-testimonios .underline {
   text-decoration: underline #e0ff00;
 }
-
 .main .testimonios {
   margin: auto;
   display: inline-block;
@@ -583,62 +496,50 @@ header .logo:active {
   top: 0;
   bottom: 0;
 }
-
 /* Slide Hijo */
-
 .slick-slide {
   padding: 0px -40px;
 }
-
 /* Slide Padre */
-
 .slick-list {
   padding: 0px 40px;
 }
-
 .testimonios .slick-prev:before {
   margin: -5px;
   color: #000000;
   font-size: 40px;
 }
-
 .testimonios .slick-next:before {
   margin: -5px;
   color: #000000;
   font-size: 40px;
 }
-
 .testimonios .estudiante {
   width: 70px;
   padding: 20px;
   margin: 20px auto;
   border: 0.3px solid;
 }
-
 .testimonios .estudiante p {
   line-height: 1.4;
   margin-top: 10px;
   margin-bottom: 30px;
 }
-
 .main .testimonios .estudiante .foto-curso {
   display: flex;
   align-items: center;
   font-size: 14px;
 }
-
 .main .testimonios .estudiante .foto-curso .foto-estudiante {
   width: 60px;
   margin-right: 20px;
 }
-
 .main .testimonios .estudiante .foto-curso h3 {
   margin-top: 5px;
   color: #666666;
   font-weight: lighter;
   text-align: left;
 }
-
 .testimonios .estudiante:hover {
   border-color: #000000;
   box-shadow: 0px 0px 15px #000000;
@@ -653,14 +554,12 @@ header .logo:active {
   color: #000;
   padding-bottom: 60px;
 }
-
 .main .preguntas-frecuentes .preguntas {
   width: 70%;
   padding: 20px auto;
   margin: auto;
   list-style-type: none;
 }
-
 .main .preguntas-frecuentes .preguntas .titulo-preguntas {
   font-size: 34px;
   line-height: 34px;
@@ -670,7 +569,6 @@ header .logo:active {
   color: #000000;
   text-align: left;
 }
-
 .main .preguntas-frecuentes .preguntas .pregunta {
   cursor: pointer;
   padding: 30px;
@@ -680,12 +578,10 @@ header .logo:active {
   border-bottom: solid 0.5px;
   border-color: #252525;
 }
-
 .main .preguntas-frecuentes .preguntas .pregunta .titulo-arrow {
   display: flex;
   justify-content: space-between;
 }
-
 .main
   .preguntas-frecuentes
   .preguntas
@@ -694,18 +590,13 @@ header .logo:active {
   .pregunta-titulo {
   margin-bottom: 20px;
 }
-
 .main .preguntas-frecuentes .preguntas .pregunta .arrow {
   display: inline-block;
   transition: all 0.4s;
 }
-
 .main .preguntas-frecuentes .preguntas .pregunta .respuesta {
   margin-bottom: 20px;
-  display: none !important;
-  visibility: hidden !important;
 }
-
 .main .preguntas-frecuentes .preguntas .pregunta-titulo:active {
   transform: scale(0.98);
 }
@@ -717,12 +608,10 @@ footer {
   display: flex;
   justify-content: center;
 }
-
 footer .contacto {
   padding: 30px 5px;
   margin: 10px 0px;
 }
-
 footer .contacto .tituloContacto {
   font-size: 34px;
   line-height: 34px;
@@ -731,44 +620,37 @@ footer .contacto .tituloContacto {
   color: #ffffff;
   text-align: center;
 }
-
 footer .contacto .formulario {
   width: 100%;
   display: flex;
   margin: 20px auto;
 }
-
 footer .contacto .formulario input[type="email"] {
   width: 80%;
-  height: 60px;
   margin-bottom: 15px;
   padding: 15px 20px;
   font-size: 20px;
   color: #000000;
   outline: none;
 }
-
 footer .contacto .formulario .boton {
   background: #3895ea;
   color: #fff;
   border: none;
-  height: 60px;
+  height: 56px;
   padding: 15px 40px;
   font-size: 20px;
   cursor: pointer;
 }
-
 footer .contacto .formulario .boton:hover {
   background: #387bea;
 }
-
 footer .newsletter .contacto .subscrito {
   background-color: green;
   padding: 5px;
   opacity: 1;
   transition: opacity 1s;
 }
-
 .main .info {
   width: 300px;
   background-color: black;
@@ -778,6 +660,9 @@ footer .newsletter .contacto .subscrito {
 @media (max-width: 800px) {
   header {
     padding-left: 5px;
+  }
+  .main-nav {
+    display: none;
   }
 
   .logo {
@@ -797,13 +682,6 @@ footer .newsletter .contacto .subscrito {
     text-align: center;
     line-height: 1.3;
     margin: 20px auto;
-  }
-  .main .portada .texto .yellowEffect {
-    text-align: center;
-    margin: auto;
-  }
-  .main .portada .texto .yellowEffect:hover {
-    color: #ffffff;
   }
   .btn-portada {
     margin-bottom: 30px;
