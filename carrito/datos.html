@@ -4,18 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Casa de Programacion</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="icon" href="../img/icon/icon.png">
     <link href="../estilos/estilos-carrito.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-  
+
 
     <section class="main">
         <div class="bloque-opcioness">
 
             <div class="logo">
-                <a href="../index.html">
+                <a class="logo-none" href="../index.html">
                     <img alt="Casa de Programacion" src="../img/logos/logo2.png" max-height="40%" />
                 </a>
             </div>
@@ -26,42 +27,42 @@
 
             <form>
 
-            <div class="input">
-                <label for="nombre">Nombre</label>
-                <input class="input-corto input-datos" type="text" name="nombre" id="nombre" required>
-            </div>
+                <div class="input">
+                    <label for="nombre">Nombre</label>
+                    <input class="input-corto input-datos" type="text" name="nombre" id="nombre" required>
+                </div>
 
-            <div class="input">
-                <label for="apellido">Apellido</label>
-                <input class="input-corto input-datos" type="text" name="apellido" id="apellido" required>
-            </div>
+                <div class="input">
+                    <label for="apellido">Apellido</label>
+                    <input class="input-corto input-datos" type="text" name="apellido" id="apellido" required>
+                </div>
 
-            <div class="input">
-                <label for="mail">Mail</label>
-                <input type="email" class="input-datos" name="mail" id="email" required>
-                <label class="comment">Lo vamos a usar para darte acceso</label>
-            </div>
+                <div class="input">
+                    <label for="mail">Mail</label>
+                    <input type="email" class="input-datos" name="mail" id="email" required>
+                    <label class="comment">Lo vamos a usar para darte acceso</label>
+                </div>
 
-            <div class="input">
-                <label for="mail">Confirmá tu mail</label>
-                <input type="email" class="input-datos" name="mail" id="email" required>
-            </div>
+                <div class="input">
+                    <label for="mail">Confirmá tu mail</label>
+                    <input type="email" class="input-datos" name="mail" id="email" required>
+                </div>
 
-            <div class="input">
-                <label for="telefono">Telefono</label>
-                <input type="text" class="input-datos" name="telefono" id="telefono" required>
-                <label class="comment">Te vamos a contactar solo si es necesario</label>
-            </div>
+                <div class="input">
+                    <label for="telefono">Telefono</label>
+                    <input type="text" class="input-datos" name="telefono" id="telefono" required>
+                    <label class="comment">Te vamos a contactar solo si es necesario</label>
+                </div>
 
-            <div class="input">
-                <label for="dni">Número de identificación (DNI)</label>
-                <input type="text" class="input-datos" name="dni" id="dni" required>
-            </div>
+                <div class="input">
+                    <label for="dni">Número de identificación (DNI)</label>
+                    <input type="text" class="input-datos" name="dni" id="dni" required>
+                </div>
 
 
-            <div class="input">
-                <label for="provincia">Provincia</label>
-                <select class="select" name="provincia" id="provincia" required>
+                <div class="input">
+                    <label for="provincia">Provincia</label>
+                    <select class="select" name="provincia" id="provincia" required>
                     <option value="1">BUENOS AIRES</option>
                     <option value="2">CATAMARCA</option>
                     <option value="5">CHACO</option>
@@ -86,27 +87,27 @@
                     <option value="22">TIERRA DEL FUEGO</option>
                     <option disabled="true" selected="true" value="">Seleccionar una Provincia</option>
                 </select>
-            </div>
+                </div>
 
-            <div class="input">
-                <label for="tributo">Condición tributaria</label>
-                <select class="select" name="tributo" id="condicionTributaria" required>
+                <div class="input">
+                    <label for="tributo">Condición tributaria</label>
+                    <select class="select" name="tributo" id="condicionTributaria" required>
                     <option value="1">Consumidor Final</option>
                     <option value="2">Monotributista</option>
                     <option value="3">Responsable Inscripto</option>
                     <option disabled="true" selected="true" value="">Seleccionar</option>
                 </select>
-            </div>
-            <div class="input term">
-                <label class="terms">Acepto los terminos y condiciones
+                </div>
+                <div class="input term">
+                    <label class="terms">Acepto los terminos y condiciones
                     <input type="checkbox" id="term" />
                     <span></span>
                 </label>
-            </div>
-            <div class="input btns">
-                <button class="btn-atras">Atras</button>
-                <button type="submit" class="btn-siguiente">Siguiente</button>
-            </div>
+                </div>
+                <div class="input btns input-btns">
+                    <button class="btn-atras">Atras</button>
+                    <button type="submit" class="btn-siguiente">Siguiente</button>
+                </div>
             </form>
         </div>
 
@@ -117,13 +118,13 @@
                 <p>Fecha: </p>
                 <p id="duracion" class="turno"></p>
                 <div class="duracion-info-extra">
-                   <p>Fecha: </p>
-                   <p class="turno"><span id="dias"></span> <span id="horarios"></span></p> 
+                    <p>Fecha: </p>
+                    <p class="turno"><span id="dias"></span> <span id="horarios"></span></p>
                 </div>
                 <div class="duracion-info-extra">
-                   <p>Precio: </p>
-                   <p class="turno">$ <span id="precio"></span></p> 
-                </div>     
+                    <p>Precio: </p>
+                    <p class="turno">$ <span id="precio"></span></p>
+                </div>
             </div>
         </section>
 

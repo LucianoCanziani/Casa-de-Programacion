@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Casa de Programacion</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="icon" href="../img/icon/icon.png">
     <link href="../estilos/estilos-carrito.css" rel="stylesheet" type="text/css">
 </head>
@@ -14,7 +15,7 @@
         <div class="bloque-opciones">
 
             <div class="logo">
-                <a href="../index.html">
+                <a class="logo-none" href="../index.html">
                     <img alt="Casa de Programacion" src="../img/logos/logo2.png" max-height="40%" />
                 </a>
             </div>
@@ -28,11 +29,11 @@
                         <img src="../img/items/arrow.png" class="arrow" height="20px">
                     </div>
                     <form class="metodo-pago-seleccionado tarjeta">
-                        <div >
+                        <div>
                             <label for="nombre">Nombre completo: </label>
                             <input type="text" name="nombre" class="form-control input-pago" id="dueño" required>
                         </div>
-                        <div >
+                        <div>
                             <label for="numeroTarjeta">Numero de la Tarjeta: </label>
                             <input type="text" name="numeroTarjeta" class="form-control input-pago" id="numeroT" required>
                         </div>
@@ -64,13 +65,13 @@
                                 <option value="26"> 2026</option>
                             </select>
                         </div>
- 
-                            <div class="btns-pagos">
-                                <button class="btn-atras">Atras</button>
-                                <button type="submit" class="btn-confirm confirmPurchase btn-tarjeta">Confirmar Compra</button>
-                            </div>
-                            
-                      
+
+                        <div class="btns-pagos">
+                            <button class="btn-atras">Atras</button>
+                            <button type="submit" class="btn-confirm confirmPurchase btn-tarjeta">Confirmar Compra</button>
+                        </div>
+
+
                     </form>
                 </li>
 
@@ -81,43 +82,43 @@
                     </div>
                     <form class="metodo-pago-seleccionado">
                         <div class="metodo-pago-flex">
-                        <div class="datos">
-                            <h4>Cuenta Destino:</h4>
-                            <p class="indicador-informacion">Banco</p>
-                            <p class="informacion">Banco de Springfield</p>
-                            <p class="indicador-informacion">CBU ALIAS</p>
-                            <p class="informacion">callefalsa123</p>
-                            <p class="indicador-informacion">CBU</p>
-                            <p class="informacion">12345-6789</p>
-                            <p class="indicador-informacion">Cuenta corriente</p>
-                            <p class="informacion">987-65432-1</p>
-                            <p class="indicador-informacion">CUIT</p>
-                            <p class="informacion">30-00000001-9</p>
-                            <p class="indicador-informacion">Razon Social</p>
-                            <p class="informacion">CASADEPROGRAMACION S.A.</p>
-                        </div>
-                        <div class="datos">
-                            <h4>Comprobante:</h4>
-                            <p class="indicador-informacion">CUIT/CUIL del titular de la cuenta</p>
-                            <input type="text" class="input-pago">
-                            <p class="indicador-informacion">Nombre completo del titular de la cuenta</p>
-                            <input type="text" class="input-pago">
-                            <p class="indicador-informacion">Fecha de la transferencia</p>
-                            <input type="date" class="input-pago">
-                            <p class="indicador-informacion">Importe</p>
-                            <input type="text" class="input-pago">
-                            <p class="indicador-informacion">Ajuntar imagen de comprobante.</p>
-                            <input type="file" class="input-pago">
-                        </div>
+                            <div class="datos">
+                                <h4>Cuenta Destino:</h4>
+                                <p class="indicador-informacion">Banco</p>
+                                <p class="informacion">Banco de Springfield</p>
+                                <p class="indicador-informacion">CBU ALIAS</p>
+                                <p class="informacion">callefalsa123</p>
+                                <p class="indicador-informacion">CBU</p>
+                                <p class="informacion">12345-6789</p>
+                                <p class="indicador-informacion">Cuenta corriente</p>
+                                <p class="informacion">987-65432-1</p>
+                                <p class="indicador-informacion">CUIT</p>
+                                <p class="informacion">30-00000001-9</p>
+                                <p class="indicador-informacion">Razon Social</p>
+                                <p class="informacion">CASADEPROGRAMACION S.A.</p>
+                            </div>
+                            <div class="datos">
+                                <h4>Comprobante:</h4>
+                                <p class="indicador-informacion">CUIT/CUIL del titular de la cuenta</p>
+                                <input type="text" class="input-pago">
+                                <p class="indicador-informacion">Nombre completo del titular de la cuenta</p>
+                                <input type="text" class="input-pago">
+                                <p class="indicador-informacion">Fecha de la transferencia</p>
+                                <input type="date" class="input-pago">
+                                <p class="indicador-informacion">Importe</p>
+                                <input type="text" class="input-pago">
+                                <p class="indicador-informacion">Ajuntar imagen de comprobante.</p>
+                                <input type="file" class="input-pago">
+                            </div>
                         </div>
                         <div class="btn-pago-div-transferencia">
                             <div class="btns-pagos">
                                 <button class="btn-atras">Atras</button>
                                 <button type="submit" class="btn-confirm confirmPurchase">Confirmar Compra</button>
                             </div>
-                            
+
                         </div>
-                        
+
                     </form>
                 </li>
             </ul>
